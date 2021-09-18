@@ -1,0 +1,5 @@
+*.DS_Store
+*.idea
+*.DB_Store
+coverage.out
+!.keepdir
