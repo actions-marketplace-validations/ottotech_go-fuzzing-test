@@ -12,4 +12,4 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: actions/hello-fuzzing@master
+        uses: actions/go-fuzzing-test@master
