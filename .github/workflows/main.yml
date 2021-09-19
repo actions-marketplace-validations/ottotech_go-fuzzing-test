@@ -8,7 +8,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    name: A job test Go fuzzing
+    name: A job to test Go fuzzing
     steps:
       - name: Hello world action step
         id: hello
