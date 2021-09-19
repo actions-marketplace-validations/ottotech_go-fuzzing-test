@@ -3,3 +3,4 @@
 *.DB_Store
 coverage.out
 !.keepdir
+testdata
