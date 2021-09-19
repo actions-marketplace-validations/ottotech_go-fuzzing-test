@@ -18,7 +18,7 @@ func main() {
 		flag.PrintDefaults()
 		os.Exit(1)
 	}
-	//
+
 	n, err := types.OnlyCertainNumbers(*nFlag)
 	if err != nil {
 		log.Fatalln(err)
