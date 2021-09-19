@@ -1,0 +1,6 @@
+# action.yml
+name: 'Hello Fuzzing'
+description: 'Test How Go Fuzzing mechanism work'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
