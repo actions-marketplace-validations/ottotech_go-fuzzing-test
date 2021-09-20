@@ -12,3 +12,4 @@ jobs:
     steps:
       - name: Hello Fuzzing
         uses: ottotech/go-fuzzing-test@v1.0
+        run: gotip test -fuzz=FuzzOnlyCertainNumbers -fuzztime=5m
