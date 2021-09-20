@@ -7,6 +7,4 @@ RUN go get golang.org/dl/gotip \
 
 WORKDIR /go/src/go-fuzzing-test/types
 
-#ENTRYPOINT ["gotip", "test", "-fuzz=FuzzOnlyCertainNumbers" , "-fuzztime=5m"]
-
-ENTRYPOINT ["/entrypoint.sh"]
+CMD ["gotip", "test", "-fuzz=FuzzOnlyCertainNumbers" , "-fuzztime=5m"]
